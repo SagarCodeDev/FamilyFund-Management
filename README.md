@@ -28,8 +28,6 @@ Here is the list of all the urls in the project:
       <ul>JSON Payload-</ul>
       <ul>Changes in the expense model</ul>
       <ul>DELETE-To delete the specified expense</ul><br>
-      <br>Supports following request
-<br>Supports following request
 <li>'api/billing/'</li>
 <br>Supports following request
       <ul>GET-To recieve all the billings</ul>
