@@ -14,14 +14,14 @@ Here is the list of all the urls in the project:
       <ul>JSON Payload-</ul>
       <ul>Changes in the account model</ul>
       <ul>DELETE-To delete the specified account</ul>
-<li>'api/expense/'<li>
+<li>'api/expense/'</li>
 <br>Supports following request
       <ul>GET-To recieve all the expenses</ul>
       <ul>POST-To post the new expense</ul><br>
       <ul>JSON Payload-</ul>
       <ul>Expense-Info regarding the expense model</ul>
       <ul>Type- Type of the expense('personal' or 'family')</ul>
-<li>'api/expense/{id}'<li>
+<li>'api/expense/{id}'</li>
       <br>Supports following request
       <ul>GET-To recieve the specified expense</ul>
       <ul>PATCH-To update the specified expense info</ul><br>
