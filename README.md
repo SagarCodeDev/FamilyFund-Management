@@ -46,7 +46,7 @@ Here is the list of all the urls in the project:
       <ul>GET-To recieve all the users</ul>
       <ul>POST-To post the new users</ul><br>
       <ul>JSON Payload-</ul>
-      <ul>Expense-Info regarding the users model</ul>
+      <ul>Info regarding the users model</ul>
 <li>'api/users/{id}'</li>
 <br>Supports following request
       <ul>GET-To recieve the specified users</ul>
