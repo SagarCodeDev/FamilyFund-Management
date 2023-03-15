@@ -14,6 +14,7 @@ class MonthList(APIView):
 
     def get(self, request):
         accounts = Accounts.objects.all()
+        #used signals here to notify the month change, passing the all the instances of the account anject
         month_changed.send_robust(sender=accounts)
         data = AccountSerializer(accounts, many=True)
         return Response(data=data.data, status=status.HTTP_200_OK)

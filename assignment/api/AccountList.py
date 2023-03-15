@@ -26,6 +26,7 @@ class AccountList(APIView):
             else:
                 return Response(status=status.HTTP_400_BAD_REQUEST)
             account = serializer.save()
+            #used signals here to notify of the account creatiion and linking all the associated users to the account
             account_created.send_robust(sender=account, users=iterate)
             return Response(serializer.data,
                             status=status.HTTP_201_CREATED)

@@ -19,4 +19,4 @@ class UserList(APIView):
         if serializer.is_valid(raise_exception=True):
             serializer.save()
             return Response(serializer.data, status=status.HTTP_201_CREATED)
-        return Response(status=status.HTTP_400_BAD_REQUEST)
+        return Response("Data not valid",status=status.HTTP_400_BAD_REQUEST)

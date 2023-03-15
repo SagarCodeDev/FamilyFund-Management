@@ -27,6 +27,6 @@ urlpatterns = [
     path('api/monthchange/', MonthList.as_view(), name='month-change'),
     path('api/users/expense/<int:pk>/',
          PeronalSpendList.as_view(), name='expense'),
-    path('api/accounts/goalamout/<int:pk>/',
+    path('api/accounts/goalamount/<int:pk>/',
          GoalAmountList.as_view(), name='goal-amount')
 ]
