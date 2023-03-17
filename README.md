@@ -1,4 +1,4 @@
-# birr_assignment
+#BIRR
 # Database used: MYSQL
 # Here is the list of all the urls in the project:
 <li>'api/accounts/'</li><br>
